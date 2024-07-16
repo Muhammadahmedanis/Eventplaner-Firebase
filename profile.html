@@ -17,33 +17,19 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Event Planer</span>
         </a>
         <div class="flex items-center space-x-6 rtl:space-x-reverse">
-            <a href="tel:5541251234" class="text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
+            <!-- <a href="tel:5541251234" class="text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a> -->
             <img id="userImg" style="display: none;" class="w-10 h-10 rounded-full" src="" alt="">
-            <a id="loginLink" href="./signin.html" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+            <a id ="createEvent" href="./event.html" class="text-lg  text-blue-600 dark:text-blue-500 hover:underline">Craete Event</a>
+            <a id="loginLink" href="./signin.html" class="text-lg text-blue-600 dark:text-blue-500 hover:underline">Login</a>
         </div>
+        <button id="logoutBtn" type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Logout</button>
     </div>
 </nav>
-<!-- <nav class="bg-gray-50 dark:bg-gray-700">
-    <div class="max-w-screen-xl px-4 py-3 mx-auto">
-        <div class="flex items-center">
-            <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
-                <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Company</a>
-                </li>
-                <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
-                </li>
-                <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Features</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
-    <button id="logoutBtn">Logout</button>
-    <script type="module" src="app.js"></script>
+
+<div class="flex" id="eventCardContainer">
+
+</div>
+
+<script type="module" src="app.js"></script>
 </body>
 </html>

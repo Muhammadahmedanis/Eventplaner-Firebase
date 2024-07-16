@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet"/>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <div class="max-w-sm mx-auto">
+        <h1 class="mt-4 text-2xl font-bold dark:text-white">Create New Event</h1>
+        <div class="my-5">
+          <label class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">Event Image</label>
+          <input type="file" id="eventfile" class="bg-gray-50 border border-gray-300 w-full rounded-lg">
+        </div>
+        <div class="mb-5 ">
+          <label class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">Event title</label>
+          <input type="text" id="eventTitle" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+        </div>
+        <div class="mb-5 ">
+          <label class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">Event Date</label>
+          <input type="date" id="eventDate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+        </div>
+        <div class="mb-5">
+          <label class="block mb-2 text-xl font-medium text-gray-900 dark:text-white">Event Description</label>
+          <textarea id="eventDescription" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+        </div>
+        <button type="button" id="eventBtn" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Create a Event</button>
+    </div>
+      
+<script type="module" src="event.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
